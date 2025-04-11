@@ -14,3 +14,5 @@ Men når h blir for liten (rundt 10^{-8} og mindre), begynner avrundingsfeil å 
 5. Implisitt er bra fordi den er stabil uansett hvor stor alpha er. Man kan da bruke større tidssteg. h = 0.1, k = 0.01 gir liten alpha, h = 0.1, k = 0.1 gir alpha = 10, men den blir fortsatt stabil. h = 0.01, k = 0.1  gir alpha = 1000 som fortsatt er stabil.
 
 6.Vi tar et gjennomsnitt av eksplisitt og implisitt, dette gir tridiagonale matriser A og B. Denne metoden er stabil og 2.ordens nøyaktighet, og mest nøyaktig.
+
+PS: Noen av kodene fungerte først, men når jeg kjørte litt etterpå skrev ikke kodene ut noe selv om det ikke var feilmelding, dette gjelder f.eks opgv 6 og 4.
